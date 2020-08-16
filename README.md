@@ -46,7 +46,7 @@ En los host se implementaron las siguientes configuraciones:
 Dando como resultado la topología de la siguiente forma:  
 
 -
-![image](https://user-images.githubusercontent.com/37676214/90329611-9737e300-df63-11ea-98a3-55dd397518e1.png)
+![image](https://user-images.githubusercontent.com/37676214/90329964-7f159300-df66-11ea-833b-db57e1dc1ce1.png)
 
 ## Configuracion de los Equipos
 
@@ -79,21 +79,21 @@ Una vez en el terminal del dispositivo se siguen los siguientes pasos.
 Siguiendo el algoritmo anterior dispositivo PC2 se configuró de la siguiente forma.
 
 -
-![image](https://user-images.githubusercontent.com/37676214/90329498-a4a09d80-df62-11ea-87a3-99f7972c0280.png)
+![image](https://user-images.githubusercontent.com/37676214/90329944-4fff2180-df66-11ea-97a3-f006c77e1b93.png)
 
 #### Configuración de PC3
 
 Siguiendo el algoritmo anterior dispositivo PC3 se configuró de la siguiente forma.
 
 -
-![image](https://user-images.githubusercontent.com/37676214/90329808-fcd89f00-df64-11ea-942a-ea9bb9762df9.png)
+![image](https://user-images.githubusercontent.com/37676214/90329993-c00da780-df66-11ea-9ae2-73372043ae2f.png)
 
 #### Configuración de PC4
 
 Siguiendo el algoritmo anterior dispositivo PC4 se configuró de la siguiente forma.
 
 -
-![image](https://user-images.githubusercontent.com/37676214/90329771-b2572280-df64-11ea-99d9-0b3cae11ab06.png)
+![image](https://user-images.githubusercontent.com/37676214/90330039-06fb9d00-df67-11ea-8835-76076c9bd450.png)
 
 
 ### Configuración de la maquina virtual.
