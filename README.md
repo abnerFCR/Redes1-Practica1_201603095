@@ -222,7 +222,28 @@ Si todo esta bien el router deberia tener este resumen de interfaz ip.
 ![image](https://user-images.githubusercontent.com/37676214/90330150-cc463480-df67-11ea-9ba8-4af0c6ca0d2d.png)
 
 
+
+### Verificando Conexiones
+
 Una vez, conectado y configurado de la forma anteriormente descrita, las configuraciones ya nos deberian permitir la comunicacion entre todas las maquinas, Esto se puede corroborrar haciendo ping desde la terminal de cualquier host hacia cualquiera de las direcciones ip de los demás. 
+
+#### TinyLinuxVM-1
+
+- ![image](https://user-images.githubusercontent.com/37676214/90330887-75435e00-df6d-11ea-9810-86b9706126a5.png)
+- ![image](https://user-images.githubusercontent.com/37676214/90330896-90ae6900-df6d-11ea-85bf-8e46ee78baa9.png)
+
+
+#### PC2 
+
+- ![image](https://user-images.githubusercontent.com/37676214/90330790-c9017780-df6c-11ea-9caf-c95dd13d718a.png)
+
+#### PC3
+
+- ![image](https://user-images.githubusercontent.com/37676214/90330801-dcacde00-df6c-11ea-9221-fb9d3fd0e730.png)
+
+#### PC4
+
+- ![image](https://user-images.githubusercontent.com/37676214/90330813-f2ba9e80-df6c-11ea-8c61-754650a731fa.png)
 
 
 ## Glosario
