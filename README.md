@@ -150,6 +150,9 @@ R1# show ip interface brief
 ``` 
 Obteniendo el siguiente resultado. 
 
+-
+![image](https://user-images.githubusercontent.com/37676214/90330100-88532f80-df67-11ea-8b2d-c79676b6993b.png)
+
 6. Procedemos a ingresar en la configuración del router.
 
 ```sh
@@ -215,7 +218,11 @@ R1# show ip interface brief
 ``` 
 Si todo esta bien el router deberia tener este resumen de interfaz ip. 
 
-Una vez, conectado y configurado de la forma anteriormente descrita, 
+-
+![image](https://user-images.githubusercontent.com/37676214/90330150-cc463480-df67-11ea-9ba8-4af0c6ca0d2d.png)
+
+
+Una vez, conectado y configurado de la forma anteriormente descrita, las configuraciones ya nos deberian permitir la comunicacion entre todas las maquinas, Esto se puede corroborrar haciendo ping desde la terminal de cualquier host hacia cualquiera de las direcciones ip de los demás. 
 
 
 
