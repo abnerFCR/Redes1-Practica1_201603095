@@ -45,9 +45,8 @@ En los host se implementaron las siguientes configuraciones:
 
 Dando como resultado la topología de la siguiente forma:  
 
-
-![Topologia](Capturas/Topologia.png)
-
+-
+![image](https://user-images.githubusercontent.com/37676214/90329611-9737e300-df63-11ea-98a3-55dd397518e1.png)
 
 ## Configuracion de los Equipos
 
@@ -79,22 +78,22 @@ Una vez en el terminal del dispositivo se siguen los siguientes pasos.
 
 Siguiendo el algoritmo anterior dispositivo PC2 se configuró de la siguiente forma.
 
-
-![Configuracion PC2](Capturas/configuracionPC2.png)
+-
+![image](https://user-images.githubusercontent.com/37676214/90329498-a4a09d80-df62-11ea-87a3-99f7972c0280.png)
 
 #### Configuración de PC3
 
 Siguiendo el algoritmo anterior dispositivo PC3 se configuró de la siguiente forma.
 
-
-![Configuracion PC3](Capturas/configuracionPC3.png)
+-
+![image](https://user-images.githubusercontent.com/37676214/90329808-fcd89f00-df64-11ea-942a-ea9bb9762df9.png)
 
 #### Configuración de PC4
 
 Siguiendo el algoritmo anterior dispositivo PC4 se configuró de la siguiente forma.
 
-
-![Configuracion PC4](Capturas/configuracionPC4.png)
+-
+![image](https://user-images.githubusercontent.com/37676214/90329771-b2572280-df64-11ea-99d9-0b3cae11ab06.png)
 
 
 ### Configuración de la maquina virtual.
@@ -108,20 +107,28 @@ Nota: Esta maquina virtual debe haber sido creada previamene en VMWare o en Virt
 2. Una vez encendida la maquina virtual, vamos a su configuración.
 
 3. Abrimos Panel de control.
+-
+![image](https://user-images.githubusercontent.com/37676214/90329539-efbab080-df62-11ea-8366-35f1ca94eed2.png)
 
 4. Abrimos Network
+-
+![image](https://user-images.githubusercontent.com/37676214/90329552-0fea6f80-df63-11ea-84f8-9efe2cf8f57a.png)
 
 5. Ingresamos la configuración correspondiente. 
 
 6. Damos click donde dice aplicar. 
+-
+![image](https://user-images.githubusercontent.com/37676214/90329568-34dee280-df63-11ea-9bd0-3ef3e875ab56.png)
 
 7. Cerramos.
 
 8. Opcional
-- Verificamos la configuración el siguiente comando.
+- Verificamos la configuración el siguiente comando la terminal.
 ```sh
 $ ifconfig
 ``` 
+-
+![image](https://user-images.githubusercontent.com/37676214/90329589-65bf1780-df63-11ea-8216-71a9661e9f3b.png)
 
 ### Configuración del Router
 
