@@ -37,10 +37,10 @@ En los host se implementaron las siguientes configuraciones:
 
 |Tipo de Host     |Nombre       | Conectado a |Direccion IP  |
 | --------------- | ----------- | ----------- |------------- |
-|Máquina Virtual  |TinyLinuxVM-1|SW1          |192.168.15.15 |
-|VPC              |PC2          |SW1          |192.168.15.30 |
-|VPC              |PC3          |SW2          |192.168.19.30 |
-|VPC              |PC4          |SW2          |192.168.19.15 |
+|Máquina Virtual  |TinyLinuxVM-1|SW1          |192.168.15.30 |
+|VPC              |PC2          |SW1          |192.168.15.15 |
+|VPC              |PC3          |SW2          |192.168.19.15 |
+|VPC              |PC4          |SW2          |192.168.19.30 |
 
 
 Dando como resultado la topología de la siguiente forma:  
@@ -63,7 +63,7 @@ Una vez en el terminal del dispositivo se siguen los siguientes pasos.
 
  1. Se le asigna una dirección IP al dispositivo, con su respectiva mascara de subred. 
 ```sh
-# ip [direccion/mascara]
+# ip [direccion/mascara gateway]
 ```
  2. Se salvan los cambios.
 ```sh
@@ -225,6 +225,24 @@ Si todo esta bien el router deberia tener este resumen de interfaz ip.
 Una vez, conectado y configurado de la forma anteriormente descrita, las configuraciones ya nos deberian permitir la comunicacion entre todas las maquinas, Esto se puede corroborrar haciendo ping desde la terminal de cualquier host hacia cualquiera de las direcciones ip de los demás. 
 
 
+## Glosario
 
+1. VPC: Es un ordenador virtual que funciona como el punto de inicio y final de las transferencias de datos. Estos poseen una única dirección IP que puede ser asignada manualmente o asignada automáticamente.
 
+2. Router: es un dispositivo que permite interconectar computadoras que funcionan en el marco de una red. Su función: se encarga de establecer la ruta que destinará a cada paquete de datos dentro de una red informática. 
 
+3. Switch: también llamado conmutador es el dispositivo digital lógico de interconexión de equipos que opera en la capa de enlace de datos del modelo OSI.
+
+4. Dirección IP: es un conjunto de números que identifica, de manera lógica y jerárquica, a una Interfaz en la red de un dispositivo que utilice el protocolo o, que corresponde al nivel de red del modelo TCP/IP.
+
+5. Interfaz de red: es una interfaz de software o hardware entre dos equipos o capas de protocolo en una red informática. Una interfaz de red generalmente tendrá algún tipo de dirección de red.
+
+6. Host: este termino se usa en informática para referirse a las computadoras u otros dispositivos conectados a una red que proveen y utilizan servicios de ella.
+
+7. Maquina virtual: es un software que simula un sistema de computación y puede ejecutar programas como si fuese una computadora real. 
+
+8. Topología de red: se define como el mapa físico o lógico de una red para intercambiar datos. En otras palabras, es la forma en que está diseñada la red, sea en el plano físico o lógico. El concepto de red puede definirse como «conjunto de nodos interconectados».
+
+9. Gateway: la pasarela o puerta de enlace es el dispositivo que actúa de interfaz de conexión entre aparatos o dispositivos, y también posibilita compartir recursos entre dos o más ordenadores. Su propósito es traducir la información del protocolo utilizado en una red inicial, al protocolo usado en la red de destino. 
+
+10. Mascara de red: es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
